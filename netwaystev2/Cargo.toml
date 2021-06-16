@@ -1,0 +1,43 @@
+[package]
+name = "netwaystev2"
+version = "0.4.0"
+authors = ["Aaron Miller <aaron.miller04@gmail.com>", "manghi <manghirs@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+#base64         = "0.13.0"
+#clap           = "2"
+#conway         = { path = "../libconway" }
+rand           = "0.8.3"
+#regex          = "1"
+#semver         = "0.11.0"
+#time           = "0.1"
+#tokio-core     = "0.1.18"
+anyhow          = "1.0.*"
+bincode         = "1.3.1"
+bytes           = "1.0.0"
+chrono          = "0.4.19"
+color-backtrace = "0.5"
+env_logger      = "0.8.*"
+futures         = "0.3"
+log             = "0.4.*"
+thiserror       = "1.0.*"
+
+[dependencies.serde]
+version = "1.0.116"
+features = ["derive"]
+
+[dependencies.tokio]
+version = "1.4"
+features = ["sync", "net", "macros", "rt", "rt-multi-thread"]
+
+[dependencies.tokio-stream]
+version = "0.1.3"
+
+[dependencies.tokio-util]
+version = "0.6.3"
+features = ["codec", "net"]
+
+#[dev-dependencies]
+#proptest             = "0.10"
+#tokio-test = "*"

@@ -2,7 +2,7 @@
 
 members = [
   "conwayste",
-  "netwayste",
+  "netwaystev2",
   "libconway",
   "dissect-netwayste",
 ]
