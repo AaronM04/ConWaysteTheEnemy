@@ -16,7 +16,7 @@ chrono               = "0.4.19"
 clap                 = "2"
 color-backtrace      = "0.5"
 conway               = { path = "../libconway" }
-env_logger           = "0.8.3"
+env_logger           = "0.8.4"
 futures              = "0.3"
 log                  = "0.4.14"
 rand                 = "0.8.3"
