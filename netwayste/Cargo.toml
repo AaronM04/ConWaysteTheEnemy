@@ -40,7 +40,7 @@ features = ["full"]
 version = "0.1.6"
 
 [dependencies.tokio-util]
-version = "0.6.3"
+version = "0.6.7"
 features = ["codec", "net"]
 
 [dev-dependencies]

@@ -17,7 +17,7 @@ version = "1.0.56"
 features = ["full", "extra-traits"]
 
 [dependencies.tokio-util]
-version = "0.6.3"
+version = "0.6.7"
 features = ["codec"]
 
 
